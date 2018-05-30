@@ -1,0 +1,32 @@
+/* AUTOPREFIXER */
+/* https://autoprefixer.github.io/ */
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+img {
+  object-fit: cover;
+  /* object-position: 0% 23%; */
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
